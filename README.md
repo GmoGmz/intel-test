@@ -1,3 +1,5 @@
+# Intel Interview RESTFUL API 
+
 I was asked to create the next application:
 Design and implement a RESTFUL API that…
 - Has APIs for Create, Read, Update, and Delete (CRUD) for a customer object.
@@ -14,7 +16,7 @@ Design and implement a RESTFUL API that…
 	- 5-10             | 5%
 	- >10              | 10%
 
-The Design on a nutshell:
+### The Design on a nutshell:
 - The API is implemented in Java 11 on a framework called Spring
 - The Spring frameworks allows ud to easily deploy any REST API inside a Tomcat we server 
 - Every object comming in and out of the Spring framework is a JSON by default
