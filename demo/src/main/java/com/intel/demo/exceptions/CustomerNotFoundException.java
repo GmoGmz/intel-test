@@ -1,0 +1,10 @@
+package com.intel.demo.exceptions;
+
+import lombok.Data;
+
+@Data
+public class CustomerNotFoundException extends RuntimeException{
+    public CustomerNotFoundException(String message) {
+        super(message);
+    }
+}
